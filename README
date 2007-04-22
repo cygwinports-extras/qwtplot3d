@@ -1,0 +1,95 @@
+qwtplot3d
+------------------------------------------
+QwtPlot3D is a feature-rich Qt/OpenGL-based C++ programming library,
+providing essentially a bunch of 3D-widgets for programmers. The library
+is zlib licensed.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  libGL1-6.5.1-1
+  libGLU1-6.5.1-1
+  qt3-3.3.8-1
+  zlib-1.2.3-2
+
+Build requirements:
+(besides corresponding devel packages)
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.3.1-1
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  make-3.81-1
+
+Canonical website:
+  http://qwtplot3d.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/qwtplot3d/
+
+-------------------------------------------
+
+Build instructions:
+  unpack qwtplot3d-0.2.6-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./qwtplot3d-0.2.6-X.cygport all
+
+This will create:
+  /usr/src/qwtplot3d-0.2.6-X-src.tar.bz2
+  /usr/src/qwtplot3d-0.2.6-X.tar.bz2
+  /usr/src/qwtplot3d-devel-0.2.6-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/cygqwtplot3d-0.dll
+  /usr/share/doc/Cygwin/qwtplot3d-0.2.5.README
+
+Files included in the devel package:
+
+  /usr/include/qt3/qwt3d_autoptr.h
+  /usr/include/qt3/qwt3d_autoscaler.h
+  /usr/include/qt3/qwt3d_axis.h
+  /usr/include/qt3/qwt3d_color.h
+  /usr/include/qt3/qwt3d_colorlegend.h
+  /usr/include/qt3/qwt3d_coordsys.h
+  /usr/include/qt3/qwt3d_drawable.h
+  /usr/include/qt3/qwt3d_enrichment.h
+  /usr/include/qt3/qwt3d_enrichment_std.h
+  /usr/include/qt3/qwt3d_function.h
+  /usr/include/qt3/qwt3d_global.h
+  /usr/include/qt3/qwt3d_graphplot.h
+  /usr/include/qt3/qwt3d_gridmapping.h
+  /usr/include/qt3/qwt3d_helper.h
+  /usr/include/qt3/qwt3d_io.h
+  /usr/include/qt3/qwt3d_io_gl2ps.h
+  /usr/include/qt3/qwt3d_io_reader.h
+  /usr/include/qt3/qwt3d_label.h
+  /usr/include/qt3/qwt3d_mapping.h
+  /usr/include/qt3/qwt3d_multiplot.h
+  /usr/include/qt3/qwt3d_openglhelper.h
+  /usr/include/qt3/qwt3d_parametricsurface.h
+  /usr/include/qt3/qwt3d_plot.h
+  /usr/include/qt3/qwt3d_portability.h
+  /usr/include/qt3/qwt3d_scale.h
+  /usr/include/qt3/qwt3d_surfaceplot.h
+  /usr/include/qt3/qwt3d_types.h
+  /usr/include/qt3/qwt3d_volumeplot.h
+  /usr/lib/qt3/lib/libqwtplot3d.dll.a
+
+------------------
+
+Port Notes:
+
+----- version 0.2.6-1 -----
+Version bump.
+Reorganized include and lib directories.
+
+----- version 0.2.5-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
