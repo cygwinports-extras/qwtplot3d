@@ -6,16 +6,16 @@ is zlib licensed.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  libGL1-6.5.1-1
-  libGLU1-6.5.1-1
-  qt3-3.3.8-1
+  libGL1-7.0.2-1
+  libGLU1-7.0.2-1
+  qt3-3.3.8-4
   zlib-1.2.3-2
 
 Build requirements:
 (besides corresponding devel packages)
   cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.3.1-1
+  cygport-0.3.7-1
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
   make-3.81-1
@@ -29,23 +29,23 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack qwtplot3d-0.2.6-X-src.tar.bz2
+  unpack qwtplot3d-0.2.7-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./qwtplot3d-0.2.6-X.cygport all
+  cygport ./qwtplot3d-0.2.7-X.cygport all
 
 This will create:
-  /usr/src/qwtplot3d-0.2.6-X-src.tar.bz2
-  /usr/src/qwtplot3d-0.2.6-X.tar.bz2
-  /usr/src/qwtplot3d-devel-0.2.6-X.tar.bz2
+  /usr/src/qwtplot3d-0.2.7-X-src.tar.bz2
+  /usr/src/qwtplot3d-0.2.7-X.tar.bz2
+  /usr/src/qwtplot3d-devel-0.2.7-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/cygqwtplot3d-0.dll
-  /usr/share/doc/Cygwin/qwtplot3d-0.2.5.README
+  /usr/share/doc/Cygwin/qwtplot3d-0.2.7.README
 
 Files included in the devel package:
 
@@ -82,6 +82,9 @@ Files included in the devel package:
 ------------------
 
 Port Notes:
+
+----- version 0.2.7-1 -----
+Version bump.
 
 ----- version 0.2.6-1 -----
 Version bump.
