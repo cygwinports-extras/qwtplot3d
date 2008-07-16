@@ -1,0 +1,21 @@
+inherit qt4-qmake
+
+DESCRIPTION="Qt 3D widgets library"
+HOMEPAGE="http://qwtplot3d.sourceforge.net/"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tgz"
+SRC_DIR="${PN}"
+
+PKG_NAMES="${PN} lib${PN}0 lib${PN}-dev"
+PKG_HINTS='setup lib devel'
+PKG_CONTENTS[0]=	# empty
+PKG_CONTENTS[1]='usr/bin/*-0.dll usr/share/'
+PKG_CONTENTS[2]='usr/include/ usr/lib/'
+
+src_install() {
+	cd ${B}
+	dobin lib/*.dll
+	doqt4lib lib/*.a
+
+	insinto ${QT4_INCLUDEDIR}
+	doins include/*.h
+}

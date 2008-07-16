@@ -5,17 +5,18 @@ providing essentially a bunch of 3D-widgets for programmers. The library
 is zlib licensed.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  libGL1-7.0.2-1
-  libGLU1-7.0.2-1
-  qt3-3.3.8-4
+  cygwin-1.5.25-15
+  libGL1-7.0.3-1
+  libGLU1-7.0.3-1
+  libQtCore4-4.4.0-1
+  libQtGui4-4.4.0-1
+  libQtOpenGL4-4.4.0-1
   zlib-1.2.3-2
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.24-2
-  binutils-20060817-1
-  cygport-0.3.7-1
+  binutils-20080523-2
+  cygport-0.3.13-1
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
   make-3.81-1
@@ -38,50 +39,54 @@ Build instructions:
 This will create:
   /usr/src/qwtplot3d-0.2.7-X-src.tar.bz2
   /usr/src/qwtplot3d-0.2.7-X.tar.bz2
-  /usr/src/qwtplot3d-devel-0.2.7-X.tar.bz2
+  /usr/src/libqwtplot3d-dev-0.2.7-X.tar.bz2
+  /usr/src/libqwtplot3d0-0.2.7-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
+Files included in the binary packages:
 
+(libqwtplot3d0)
   /usr/bin/cygqwtplot3d-0.dll
   /usr/share/doc/Cygwin/qwtplot3d-0.2.7.README
 
-Files included in the devel package:
-
-  /usr/include/qt3/qwt3d_autoptr.h
-  /usr/include/qt3/qwt3d_autoscaler.h
-  /usr/include/qt3/qwt3d_axis.h
-  /usr/include/qt3/qwt3d_color.h
-  /usr/include/qt3/qwt3d_colorlegend.h
-  /usr/include/qt3/qwt3d_coordsys.h
-  /usr/include/qt3/qwt3d_drawable.h
-  /usr/include/qt3/qwt3d_enrichment.h
-  /usr/include/qt3/qwt3d_enrichment_std.h
-  /usr/include/qt3/qwt3d_function.h
-  /usr/include/qt3/qwt3d_global.h
-  /usr/include/qt3/qwt3d_graphplot.h
-  /usr/include/qt3/qwt3d_gridmapping.h
-  /usr/include/qt3/qwt3d_helper.h
-  /usr/include/qt3/qwt3d_io.h
-  /usr/include/qt3/qwt3d_io_gl2ps.h
-  /usr/include/qt3/qwt3d_io_reader.h
-  /usr/include/qt3/qwt3d_label.h
-  /usr/include/qt3/qwt3d_mapping.h
-  /usr/include/qt3/qwt3d_multiplot.h
-  /usr/include/qt3/qwt3d_openglhelper.h
-  /usr/include/qt3/qwt3d_parametricsurface.h
-  /usr/include/qt3/qwt3d_plot.h
-  /usr/include/qt3/qwt3d_portability.h
-  /usr/include/qt3/qwt3d_scale.h
-  /usr/include/qt3/qwt3d_surfaceplot.h
-  /usr/include/qt3/qwt3d_types.h
-  /usr/include/qt3/qwt3d_volumeplot.h
-  /usr/lib/qt3/lib/libqwtplot3d.dll.a
+(libqwtplot3d-dev)
+  /usr/include/qt4/qwt3d_autoptr.h
+  /usr/include/qt4/qwt3d_autoscaler.h
+  /usr/include/qt4/qwt3d_axis.h
+  /usr/include/qt4/qwt3d_color.h
+  /usr/include/qt4/qwt3d_colorlegend.h
+  /usr/include/qt4/qwt3d_coordsys.h
+  /usr/include/qt4/qwt3d_drawable.h
+  /usr/include/qt4/qwt3d_enrichment.h
+  /usr/include/qt4/qwt3d_enrichment_std.h
+  /usr/include/qt4/qwt3d_function.h
+  /usr/include/qt4/qwt3d_global.h
+  /usr/include/qt4/qwt3d_graphplot.h
+  /usr/include/qt4/qwt3d_gridmapping.h
+  /usr/include/qt4/qwt3d_helper.h
+  /usr/include/qt4/qwt3d_io.h
+  /usr/include/qt4/qwt3d_io_gl2ps.h
+  /usr/include/qt4/qwt3d_io_reader.h
+  /usr/include/qt4/qwt3d_label.h
+  /usr/include/qt4/qwt3d_mapping.h
+  /usr/include/qt4/qwt3d_multiplot.h
+  /usr/include/qt4/qwt3d_openglhelper.h
+  /usr/include/qt4/qwt3d_parametricsurface.h
+  /usr/include/qt4/qwt3d_plot.h
+  /usr/include/qt4/qwt3d_portability.h
+  /usr/include/qt4/qwt3d_scale.h
+  /usr/include/qt4/qwt3d_surfaceplot.h
+  /usr/include/qt4/qwt3d_types.h
+  /usr/include/qt4/qwt3d_volumeplot.h
+  /usr/lib/qt4/lib/libqwtplot3d.dll.a
 
 ------------------
 
 Port Notes:
+
+----- version 0.2.7-2 -----
+Rebuilt for Qt4.
 
 ----- version 0.2.7-1 -----
 Version bump.
