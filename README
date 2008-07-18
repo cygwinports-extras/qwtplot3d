@@ -39,7 +39,7 @@ Build instructions:
 This will create:
   /usr/src/qwtplot3d-0.2.7-X-src.tar.bz2
   /usr/src/qwtplot3d-0.2.7-X.tar.bz2
-  /usr/src/libqwtplot3d-dev-0.2.7-X.tar.bz2
+  /usr/src/libqwtplot3d-devel-0.2.7-X.tar.bz2
   /usr/src/libqwtplot3d0-0.2.7-X.tar.bz2
 
 -------------------------------------------
@@ -50,7 +50,7 @@ Files included in the binary packages:
   /usr/bin/cygqwtplot3d-0.dll
   /usr/share/doc/Cygwin/qwtplot3d-0.2.7.README
 
-(libqwtplot3d-dev)
+(libqwtplot3d-devel)
   /usr/include/qt4/qwt3d_autoptr.h
   /usr/include/qt4/qwt3d_autoscaler.h
   /usr/include/qt4/qwt3d_axis.h

@@ -5,7 +5,7 @@ HOMEPAGE="http://qwtplot3d.sourceforge.net/"
 SRC_URI="mirror://sourceforge/${PN}/${P}.tgz"
 SRC_DIR="${PN}"
 
-PKG_NAMES="${PN} lib${PN}0 lib${PN}-dev"
+PKG_NAMES="${PN} lib${PN}0 lib${PN}-devel"
 PKG_HINTS='setup lib devel'
 PKG_CONTENTS[0]=	# empty
 PKG_CONTENTS[1]='usr/bin/*-0.dll usr/share/'
