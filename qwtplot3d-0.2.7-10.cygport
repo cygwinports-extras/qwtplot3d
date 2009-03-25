@@ -7,9 +7,8 @@ SRC_DIR="${PN}"
 
 PKG_NAMES="${PN} lib${PN}0 lib${PN}-devel"
 PKG_HINTS='setup lib devel'
-PKG_CONTENTS[0]=	# empty
-PKG_CONTENTS[1]='usr/bin/*-0.dll usr/share/'
-PKG_CONTENTS[2]='usr/include/ usr/lib/'
+libqwtplot3d0_CONTENTS='usr/bin/*-0.dll usr/share/'
+libqwtplot3d_devel_CONTENTS='usr/include/ usr/lib/'
 
 src_install() {
 	cd ${B}

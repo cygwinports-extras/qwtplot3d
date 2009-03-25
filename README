@@ -5,21 +5,23 @@ providing essentially a bunch of 3D-widgets for programmers. The library
 is zlib licensed.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libGL1-7.0.3-1
-  libGLU1-7.0.3-1
-  libQtCore4-4.4.0-1
-  libQtGui4-4.4.0-1
-  libQtOpenGL4-4.4.0-1
-  zlib-1.2.3-2
+  cygwin-1.7.0-44
+  libgcc1-4.3.2-2
+  libGL1-7.2-10
+  libGLU1-7.2-10
+  libQtCore4-4.4.3-10
+  libQtGui4-4.4.3-10
+  libQtOpenGL4-4.4.3-10
+  libstdc++6-4.3.2-2
+  zlib0-1.2.3-10
 
 Build requirements:
 (besides corresponding devel packages)
-  binutils-20080523-2
-  cygport-0.3.13-1
-  gcc-core-3.4.4-3
-  gcc-g++-3.4.4-3
-  make-3.81-1
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
+  make-3.81-2
 
 Canonical website:
   http://qwtplot3d.sourceforge.net/
@@ -38,7 +40,6 @@ Build instructions:
 
 This will create:
   /usr/src/qwtplot3d-0.2.7-X-src.tar.bz2
-  /usr/src/qwtplot3d-0.2.7-X.tar.bz2
   /usr/src/libqwtplot3d-devel-0.2.7-X.tar.bz2
   /usr/src/libqwtplot3d0-0.2.7-X.tar.bz2
 
@@ -48,7 +49,6 @@ Files included in the binary packages:
 
 (libqwtplot3d0)
   /usr/bin/cygqwtplot3d-0.dll
-  /usr/share/doc/Cygwin/qwtplot3d-0.2.7.README
 
 (libqwtplot3d-devel)
   /usr/include/qt4/qwt3d_autoptr.h
@@ -85,18 +85,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 0.2.7-2 -----
-Rebuilt for Qt4.
-
------ version 0.2.7-1 -----
-Version bump.
-
------ version 0.2.6-1 -----
-Version bump.
-Reorganized include and lib directories.
-
------ version 0.2.5-1 -----
-Initial release for Cygwin.
+----- version 0.2.7-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
