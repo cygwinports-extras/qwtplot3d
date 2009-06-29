@@ -1,5 +1,5 @@
 category: KDE
-requires: cygwin libgcc1 libGL1 libGLU1 libQtCore4 libQtGui4 libQtOpenGL4 libstdc++6 zlib0
+requires: libgcc1 libGL1 libGLU1 libQtCore4 libQtGui4 libQtOpenGL4 libstdc++6 zlib0
 external-source: qwtplot3d
 sdesc: "3D widget library for Qt4 (runtime)"
 ldesc: "QwtPlot3D is a feature-rich Qt/OpenGL-based C++ programming
